@@ -1,0 +1,121 @@
+a{
+    display: none;
+}
+img{
+    height: 450px;
+}
+h4{
+    text-align: center;
+    color: red;
+}
+input[type=text], input[type=password] , input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: rgb(251, 241, 241);
+}
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.mod {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    background-color:white;
+}
+.error {color: #FF0000;}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 0 0 0 ;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.deletebtn{
+    background-color: #ccc;
+    color: red;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 15px 0 0 0 ;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;  
+    /*position: fixed;  Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 50%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: white; /* Fallback color */
+    /*padding-top: 60px;*/
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.myPic{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
